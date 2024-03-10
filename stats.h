@@ -15,7 +15,7 @@
  * Description : Functions declaration for basic statistic functions 
  *
  * @author Tianyi
- * @date Tianyi LIU 
+ * @date 3/10/2024
  *
  */
 #ifndef __STATS_H__
