@@ -1,6 +1,9 @@
 Tianyi 
 author Tianyi
 date 3/10/2024
+github repo link : 
+
+https://github.com/tianyiliu27/intro_to_es_week1
 
 To build on Linuxs: 
 
