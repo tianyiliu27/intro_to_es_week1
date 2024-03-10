@@ -9,32 +9,91 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.h
+ * @brief Week 1 assessments
  *
- * <Add Extended Description Here>
+ * Description : Functions declaration for basic statistic functions 
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Tianyi
+ * @date Tianyi LIU 
  *
  */
 #ifndef __STATS_H__
 #define __STATS_H__
 
-/* Add Your Declarations and Function Comments here */ 
+/**
+ * @brief Print median, maximum, mean, and min of a given array
+ *
+ * @param ptr pointer to the array 
+ * @param length length of the array 
+ *
+ */
+void print_statistics( unsigned char *ptr, unsigned int length );
 
 /**
- * @brief <Add Brief Description of Function Here>
+ * @brief Print the array 
+ * 
+ * The function print the array with 8 element per line
+ * 
+ * @param ptr pointer to the array 
+ * @param length length of the array 
  *
- * <Add Extended Description Here>
- *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- *
- * @return <Add Return Informaiton here>
  */
+void print_array(unsigned char *ptr, unsigned int length );
 
+/**
+ * @brief Find the median of a given array
+ * 
+ * The function uses bubble sort from largest to smallest.
+ * 
+ * @param ptr pointer to the array 
+ * @param length length of the array 
+ *
+ * @return the median of the array 
+ */
+float find_median( unsigned char *ptr, unsigned int length );
+
+/**
+ * @brief Find the mean of a given array
+ * 
+ * 
+ * @param ptr pointer to the array 
+ * @param length length of the array 
+ *
+ * @return the mean of the array 
+ */
+unsigned char find_mean( unsigned char *ptr, unsigned int length );
+
+/**
+ * @brief Find the max of a given array
+ * 
+ * 
+ * @param ptr pointer to the array 
+ * @param length length of the array 
+ *
+ * @return the max of the array 
+ */
+unsigned char find_max( unsigned char *ptr, unsigned int length );
+
+/**
+ * @brief Find the min of a given array
+ * 
+ * 
+ * @param ptr pointer to the array 
+ * @param length length of the array 
+ *
+ * @return the min of the array 
+ */
+unsigned char find_min( unsigned char *ptr, unsigned int length );
+
+/**
+ * @brief Sort the array from largest to smallest.
+ * 
+ * 
+ * @param ptr pointer to the array 
+ * @param length length of the array 
+ *
+ */
+void sort_array( unsigned char *ptr, unsigned int length );
 
 #endif /* __STATS_H__ */
